@@ -1,0 +1,12 @@
+<!-- String interpolation 
+one way data binding-->
+<h1>{{title}}</h1>
+<h1>
+<img [src] = 'card'/>
+</h1>
+<h3>{{choice}}</h3>
+<h3 [innerHTML]='choice'></h3>
+<h2>
+  <button [disabled]='choice' (click)='show()' >Click me</button>
+  
+</h2>
